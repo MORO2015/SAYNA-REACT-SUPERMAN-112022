@@ -1,0 +1,39 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+  height: 120;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+header nav {
+  padding: 10px 10px;
+  display: inline;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.975);
+}
+header nav a img {
+  height: 60px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+header nav ul li {
+  list-style: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #ffff00;
+}

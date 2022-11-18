@@ -1,0 +1,238 @@
+/* creation des variable des couleurs */
+:root {
+  --yellow-color: #ffff00;
+  --yellow-color: #f8f184;
+  --blue-color: #19587d;
+  --red-bordo-color: #b11313;
+  --black-defonce-color: #0d0e09;
+  --blanc-faible-color: #eddebf;
+  --red-fort-color: #890008;
+  --gris-color: #c4c4c4;
+  --black-color: #000000;
+  --blanc-color: #ffffff;
+}
+
+#hero {
+  background-image: url(../assets/images/img1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-attachment: none;
+}
+.card {
+  height: 400px;
+}
+.card-img {
+  height: 400px;
+  max-width: 450;
+}
+.text {
+  text-align: justify;
+}
+#bat-super {
+  background-image: url(../assets/images/img11.png);
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.bat-super {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  top: 200px;
+}
+
+/* style de la deuxieme section avec les blocs a l'interieu */
+.section .cinema {
+  /* display: block; */
+  width: auto;
+  margin: 0 auto;
+  align-items: center;
+  /* display: inline-block; */
+  /* text-align: center; */
+}
+.section .cinema .text-cole {
+  display: flex;
+  align-items: center;
+}
+.section .cinema .text-cole img {
+  width: 150px;
+}
+.text-cine {
+  margin-top: 30px;
+}
+
+.section .cinema .text-cine {
+  margin-left: 50px;
+  color: #f8f184;
+  margin-bottom: 20px;
+}
+.carousel {
+  align-items: center;
+}
+.element {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.description {
+  background-image: linear-gradient(to right, #c4c4c4, rgb(28, 28, 80));
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-color: #c4c4c4;
+  height: auto;
+  padding: 20px;
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  top: center;
+}
+.description h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* font-size: 15px; */
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.text-yellow {
+  color: #f8f184;
+}
+/* style de la section formulaire */
+.formulaire {
+  width: 100%;
+  /* background-color: #19587d; */
+  background-image: linear-gradient(
+    to bottom right,
+    var(--gris-color),
+    var(--blue-color)
+  );
+  display: block;
+  margin-top: 60px;
+}
+.formulaire .carde-formulaire {
+  width: 60%;
+  /* background-color: yellow; */
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 60px;
+}
+.formulaire .carde-formulaire h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.formulaire .carde-formulaire form {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: #890008; */
+}
+.formulaire .carde-formulaire form label {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--blanc-color);
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 3px solid var(--blanc-color);
+  background: transparent;
+  font-size: 20px;
+  color: var(--blanc-color);
+}
+input[type="email"],
+select,
+textarea:focus {
+  outline: none;
+}
+.formulaire .carde-formulaire form p {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+  color: var(--blanc-faible-color);
+}
+.bouton-forme {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.bouton-forme button {
+  padding: 7px 10px;
+}
+.bouton-forme button a {
+  text-decoration: none;
+  font-size: 15px;
+}
+textarea {
+  width: 100%;
+  height: 30px;
+  resize: none;
+  box-sizing: border-box;
+  color: var(--blanc-faible-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 3px solid var(--blanc-color);
+  font-size: 20px;
+}
+.formulaire .carde-formulaire .confirme {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20p;
+  padding-bottom: 40px;
+}
+
+.formulaire .carde-formulaire .confirme input[type="submit"] {
+  padding: 60px 10x;
+  background-image: linear-gradient(to right, #c4c4c4, red);
+  height: 70px;
+  width: 300px;
+  color: var(--blanc-color);
+  font-size: 20px;
+  border: none;
+}
+
+.section .loli {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.section .loli .text-uniq {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section .loli .text-uniq .regle {
+  font-size: 20px;
+  color: var(--blanc-color);
+  margin-bottom: 50px;
+  text-align: center;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+.section .loli .text-uniq .petite-text {
+  text-align: center;
+}
+.section .loli .image-left {
+  align-self: flex-start;
+  margin-left: 100px;
+}
+.section .loli .image-right {
+  align-self: flex-end;
+  margin-right: 100px;
+}
