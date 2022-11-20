@@ -1,5 +1,5 @@
 {
-  "homepage": "http:// MORO2015.github.io/SAYNA-REACT-SUPERMAN-112022",
+  "homepage": "https:// MORO2015.github.io/SAYNA-REACT-SUPERMAN-112022",
   "name": "super_man_app",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pagesnpm deploy -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
