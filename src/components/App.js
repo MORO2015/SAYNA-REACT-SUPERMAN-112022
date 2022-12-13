@@ -6,6 +6,8 @@ import Layout from "../pages/Layout";
 import Home from "../pages/Home";
 import Eshop from "../pages/Eshop";
 import Moncompte from "../pages/Moncompte";
+import Signup from "../pages/Signup";
+import Login from "../pages/Login";
 import Notfundpage from "../pages/Notfundpage";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="eshop" element={<Eshop />} />
             <Route path="moncompte" element={<Moncompte />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="login" element={<Login />} />
             <Route path="*" element={<Notfundpage />} />
           </Route>
         </Routes>

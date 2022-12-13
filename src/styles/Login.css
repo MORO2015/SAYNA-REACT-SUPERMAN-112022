@@ -1,0 +1,41 @@
+.hero-image {
+  background-image: url(../assets/images/img20.png);
+  height: 800px;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulaire {
+  background: linear-gradient(to right, rgb(23, 33, 28), rgb(184, 7, 7));
+  max-width: 50%;
+  padding: 40px;
+  margin-top: -35%;
+  border-radius: 10px;
+}
+
+.form {
+  background-color: rgba(122, 122, 122, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+label {
+  color: white;
+}
+input[type="text"],
+input[type="mail"],
+input[type="password"] {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.btn-bg {
+  background: linear-gradient(
+    27deg,
+    rgba(63, 55, 116, 1) 55%,
+    rgba(139, 62, 90, 1) 62%,
+    rgba(193, 11, 11, 1) 70%
+  );
+  color: white;
+}
